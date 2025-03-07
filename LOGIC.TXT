@@ -1,0 +1,153 @@
+Calculate the Area of a Rectangle
+Scenario: A carpenter wants to calculate the area of a rectangular table
+to decide how much wood to buy
+Area = Length*Width 
+begin 
+numric  nlength,nwidth,nArea
+accept nlength
+accept nwidth 
+nArea = nlength*nwidth
+Display "Area"
+
+Determine the Grade of a Student
+Scenario: A teacher needs to determine if a student passed an exam. A
+student passes if their score is 50 or above.
+Hint: Use one variable for the score and an if condition to check if it is 50
+or more.
+
+begin 
+numric nscore 
+accept nscore
+if nscore>=50
+  Display "Passed"
+else
+    Display "failed"
+    
+
+The school grading systems follows as
+A = 85 AND above
+B = 75 to 84
+C = 55 to 64
+D = 50 to 55
+E = 40 to 54
+F = 40 below
+
+begin
+numric score
+accept score
+if score>=A
+  Display "Exellent"
+else if score>=B AND score<A
+  Display "Very good"
+else if score>=C AND score<B 
+  Display "GOOD"
+else if score>=D AND score<C
+  Display "FAIR"
+else if score>=E AND score<D
+  Display "Satisfactory"
+else if score>= AND score<A
+  Display "Very good"
+else if score>=C AND score<B 
+  Display "GOOD"
+else:
+    Display "Invalid score"
+
+end
+Calculate the Cost of Painting a Wall
+begin
+numric nlength,nwidth,nArea ntotalcost
+accept nlength
+accept nwidth
+nArea= nlength*nwidth
+Display Area
+ntotalcost=Area*5
+Display "TOTAL COST"
+
+Convert Hours to Minutes
+Scenario: A schedule planner asks you to convert hours into minutes to
+simplify their work.
+Hint: Multiply the number of hours by 60 to find the total minutes
+
+begin
+numric nhours,ntotalmintues,nconversion
+accept hours
+nconversion = nhours*60
+Display = "Conversion"
+
+Check if a Triangle is Valid
+Scenario: A geometry student wants to check if three sides can form a
+triangle. For a valid triangle, the sum of any two sides must be greater
+than the third side.
+Hint: Use three variables for the sides and check the triangle inequality
+rule for all three combinations.
+Expected Input: Side1, Side2, Side3
+Output: "Valid" or "Not Valid"
+
+
+nice one 
+good afternoon boss
+
+good afternoon
+so we can continue from here
+
+begin
+numric side1 = 4,side2 = 4,side3 = 5
+accept side1 
+if side1 + side2 > side3
+    display "Next step"
+    if side2 + side3 > side1
+        display "Next step"
+        if side3 + side1> 2
+          display "Valid Triangle"
+        else:
+            display "invalid trianlge"
+    else:
+      display "invalid trianlge"    
+else:
+    display "invalid trianlge"
+
+
+Calculate the Average of Three Numbers
+Scenario: A teacher wants to calculate the average of three test scores
+for a student.
+
+begin 
+numric score_1, score_2, score_3 , naverage 
+accept score_1
+accept score_2
+accept score_3
+naverage = (score_1+score_2+score_3)/3
+Display "Average"
+end 
+
+Find the Largest of Two Numbers
+
+begin 
+numeric num1,num2
+if num1>num2 
+  display "num1 is greater then num2
+else 
+  Display "num2 is greater than num1"
+
+end 
+
+i will call you back 
+oh kk 
+ 
+you can start 
+by the way i will have to leave for family devotion once it 9pm
+
+Check for Leap Year
+Scenario: A calendar app developer wants to check if a given year is a
+leap year. A year is a leap year if it is divisible by 4 but not divisible by
+100, unless also divisible by 400
+
+
+begin 
+  numeric arr[5]
+  character countries 
+  display "enter the 5 africa countries"
+  for {i=0,i<5,i=i+1}
+  accept country {1}
+
+

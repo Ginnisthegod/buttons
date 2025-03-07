@@ -1,0 +1,63 @@
+.divbutton{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.cart{
+  background-color: gold;
+  cursor: pointer; 
+}
+.buy{
+  background-color: chocolate;
+  cursor: pointer; 
+}
+
+.styledhd{
+  color: darkolivegreen;
+  cursor: pointer; 
+}
+
+.call{
+  background-color: grey;
+  color: blanchedalmond;
+  border: none;
+  height: 30px;
+  width: 65px;
+  border-radius: 2px;
+  cursor: pointer; 
+  margin-left: 8px;
+  transition: 0.15s;
+  cursor: pointer; 
+}
+
+
+.Whatsapp{
+  background-color: rgb(129, 197, 12);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 30px;
+  width: 75px;
+  border-radius: 2px;
+  cursor: pointer; 
+  margin-left: 8px;
+  transition: 0.15s;
+  cursor: pointer; 
+}
+
+.heading{
+  color: cornflowerblue;
+  cursor: pointer; 
+}
+
+.Amazon{
+  cursor: pointer;
+}
+.Amazon:hover{
+  opacity: 0.5;
+  background-color: rgb(127, 132, 167);
+  color: blanchedalmond;
+}
+.Amazon:active{
+  opacity: 0.3;
+}
+  
+
